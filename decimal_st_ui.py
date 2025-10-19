@@ -33,7 +33,7 @@ st.divider()
 st.markdown(
     """
     <div style="text-align: center; font-size: 1em; font-weight: bold;">
-      <a href = "https://greatbasinobservatory.org/" style = 'text-decoration: none; color: #51A5B1;'>Learn More About Great Basin Observatory (GBO)</a>
+    <a href = "https://greatbasinobservatory.org/" style = 'text-decoration: none; color: #51A5B1;'>Learn More About Great Basin Observatory (GBO)</a>
       | Developed by <a href="https://www.linkedin.com/in/wijdan-ali-374793288/" style =' text-decoration: none; color: #51A5B1;'>Wijdan Ali</a>
     </div>
     """,
