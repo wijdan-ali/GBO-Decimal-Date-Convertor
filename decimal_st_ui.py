@@ -25,7 +25,7 @@ days_passed = (datetime.combine(date_input, datetime.min.time()) - start_of_year
 decimal_year = year + (days_passed / days_in_year)
 
 # --- Output ---
-st.markdown(""" 
+st.markdown(f""" 
 
 <div style="text-align: center;">
   <span style="font-size: 2em; font-weight: bold;">Decimal Year: </span>
