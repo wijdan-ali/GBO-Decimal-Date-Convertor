@@ -25,7 +25,15 @@ days_passed = (datetime.combine(date_input, datetime.min.time()) - start_of_year
 decimal_year = year + (days_passed / days_in_year)
 
 # --- Output ---
-st.metric(label="Decimal Year", value=f"{decimal_year:.6f}", layout="centered")
+st.markdown(""" 
+
+<div style="text-align: center;">
+  <span style="font-size: 2em; font-weight: bold;">Decimal Year: </span>
+  <h3>{decimal_year:.6f}</h3>
+</div>
+
+
+""", unsafe_allow_html=True)
 
 st.divider()
 
