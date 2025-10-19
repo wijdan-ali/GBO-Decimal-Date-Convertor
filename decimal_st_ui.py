@@ -1,7 +1,9 @@
 import streamlit as st
-from datetime import datetime
 
-st.set_page_config(page_title="GBO's Decimal Year Converter", page_icon="📅", layout="centered")
+
+
+
+st.set_page_config(page_title="GBO's Decimal Year Converter", page_icon="/favicon.ico", layout="centered")
 
 st.markdown("""
 
