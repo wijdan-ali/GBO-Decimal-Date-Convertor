@@ -28,8 +28,8 @@ decimal_year = year + (days_passed / days_in_year)
 st.markdown(f""" 
 
 <div style="text-align: center;">
-  <span style="font-size: 2em; font-weight: bold;">Decimal Year: </span>
-  <h3>{decimal_year:.6f}</h3>
+  <span style="font-size: 1.3em; font-weight: bold;">Decimal Year: </span>
+  <h2>{decimal_year:.6f}</h2>
 </div>
 
 
